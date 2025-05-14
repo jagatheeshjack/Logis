@@ -7,7 +7,7 @@ const Tracker = ({ trackId }) => {
     { id: 'XYZ789', lat: 40.7128, lng: -74.006 },
     { id: 'LMN456', lat: 51.5074, lng: -0.1278 },
   ];
-  const GOOGLE_MAPS_API_KEY = 'AIzaSyBaqYVjcmY50mrqIhkuPFydr067e8Pu3pU';
+  const GOOGLE_MAPS_API_KEY = '';
   const track = TRACKS.find(t => t.id === trackId);
 
   return (
